@@ -7,7 +7,7 @@ const Journey = () => {
   return (
     <section className=" ">
       <div className="container mx-auto   py-20 flex flex-wrap items-start justify-center md:justify-between gap-5 h-fit  px-0 ">
-        <div className="w-full md:w-[40%]  h-[35rem] ">
+        <div className="w-full md:w-[40%]  h-[35rem] px-4 md:px-0 ">
           <h1 className="font-bold text-2xl md:text-3xl mb-4 leading-relaxed md:leading-relaxed text-TDarkBlue  ">
             Realize your Vision Through Exceptional Customer Satisfaction
           </h1>
@@ -22,7 +22,10 @@ const Journey = () => {
           </figure>
         </div>
 
-        <div className="w-full md:w-[40%]    h-[35rem]">
+
+
+
+        <div className="w-full md:w-[40%]    h-[35rem] px-4 md:px-0">
           <h6 className="font-bold text-2xl text-TLightBlue leading-relaxed">{`We specialize in assisting start-ups, SMEs, and enterprises in business growth through embedded engineers and outsourced software development services.`}</h6>
 
           <p className=" my-4 text-justify">{`We excel in translating your vision into digital reality. Since 2019, we've been dedicated to providing top-tier custom services aimed at empowering you to innovate, expand, and lead within your industry.`}</p>

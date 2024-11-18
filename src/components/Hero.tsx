@@ -31,7 +31,7 @@ const Hero: React.FC<Pros> = ({ heading, url, btn, video, poster, text }) => {
       </div>
       <div className="absolute inset-0 flex items-center justify-center text-white capitalize text-2xl sm:text-[4dvw] text-center flex-col gap-3">
         {heading && (
-          <h1 className="font-bold leading-tight px-4 md:px-8 ">{heading}</h1>
+          <h1 className="font-bold leading-tight px-2 md:px-8  text-4xl md:text-6xl">{heading}</h1>
         )}
 
         {text && (

@@ -4,7 +4,7 @@ import { ourPeople } from "@/constants/index";
 import { Button } from "./ui/button";
 
 const OurPeople = () => (
-  <section className="py-20 h-fit">
+  <section className="py-20 h-fit mt-[19rem] md:mt-0">
     <div className="container mx-auto px-4 flex flex-wrap items-center gap-4 h-fit flex-col md:flex-row">
       <figure className="md:w-[49%] w-full h-96 relative md:-mr-16 overflow-hidden rounded-md hover:rounded-3xl transition-all duration-300 ">
         <Image

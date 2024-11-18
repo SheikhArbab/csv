@@ -18,13 +18,13 @@ const HomePage = () => (
 
     <C.Journey />
 
-    <C.VelocityText content="CSV is fueled by a diverse team of more than 100 professionals spread across 4 global offices." />
+    {/* <C.VelocityText content="CSV is fueled by a diverse team of more than 100 professionals spread across 4 global offices." /> */}
 
     <C.OurPeople />
 
     {/* <C.Info /> */}
 
-    <C.TextParallaxContent />
+    {/* <C.TextParallaxContent /> */}
     <C.Services
       bg={true}
       url="/services"
