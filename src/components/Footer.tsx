@@ -45,6 +45,11 @@ const Footer = () => {
                 providers to enhance our solutions significantly.
               </p>
             </div>
+            <div className="mt-4">
+              <figure className="sm:w-32" >
+                <img src="/qr.jpeg" alt="" className="w-full h-full object-contain" />
+              </figure>
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             {serviceCards.slice(0, 4).map((category, index) => (

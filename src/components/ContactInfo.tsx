@@ -22,6 +22,9 @@ const ContactInfo: React.FC = () => (
           </div>
 
           <div className="max-w-full pt-8 mx-auto rounded-lg overflow-hidden grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+
+
             <div className="">
               <div className="py-4">
                 <h3 className="text-5xl text-gray-900 font-bold">Contact</h3>
@@ -30,14 +33,14 @@ const ContactInfo: React.FC = () => (
                 </div>
               </div>
 
-              <div className="flex flex-wrap items-center gap-4">
+              <div className="flex   items-center gap-4">
                 <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><IoMail /></div>
 
                 <div className="">
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="mailto:info@cybersoftvantage.com">Email: info@cybersoftvantage.com</a>
                   </p>
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="mailto:hr@cybersoftvantage.com">Email: hr@cybersoftvantage.com</a>
                   </p>
                 </div>
@@ -49,25 +52,25 @@ const ContactInfo: React.FC = () => (
                 <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><FaPhoneAlt /></div>
 
                 <div className="">
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="tel:+92-51-613-1111">Phone: +92-51-613-1111</a>
                   </p>
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="tel:+92-51-613-1111">Phone: +92-333-561-4455</a>
                   </p>
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="tel:+92-51-613-1111">Phone: +92-332-531-2130</a>
                   </p>
                 </div>
               </div> 
 
 
-              <div className="flex flex-wrap items-center gap-4">
+              <div className="flex  items-center gap-4">
                 <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2">
                   <FaLocationDot /></div>
 
-                <div className="">
-                  <p className=" text-gray-600">
+                <div className=" w-[75%]">
+                  <p className=" text-gray-600 text-sm md:text-xl">
                     94-A, Street #07, Sector I-10/3, Islamabad, Pakistan, 44000.
                   </p>
                 </div>
@@ -81,7 +84,7 @@ const ContactInfo: React.FC = () => (
               <div className="py-4">
                 <h3 className="text-5xl text-transparent font-bold">Contact</h3>
                 <div className="my-8 capitalize text-gray-900 text-3xl font-semibold">
-          USA
+          U.S.A
                 </div>
               </div>
 
@@ -89,10 +92,10 @@ const ContactInfo: React.FC = () => (
                 <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><IoMail /></div>
 
                 <div className="">
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="mailto:info@cybersoftvantage.com">Email: info@cybersoftvantage.com</a>
                   </p>
-                  <p className="mt-1 text-gray-600">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     <a href="mailto:hr@cybersoftvantage.com">Email: hr@cybersoftvantage.com</a>
                   </p>
                 </div>
@@ -105,7 +108,7 @@ const ContactInfo: React.FC = () => (
                 <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><FaPhoneAlt /></div>
 
                 <div className="">
-                  <p className=" text-gray-600">
+                  <p className=" text-gray-600 text-sm md:text-xl">
                     <a href="tel:+1-703-770-8059">Phone: +1-703-770-8059</a>
                   </p>
                 </div>
@@ -116,16 +119,69 @@ const ContactInfo: React.FC = () => (
               <div className="flex flex-wrap items-center gap-4">
                 <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><FaLocationDot /></div>
 
-                <div className="">
-                  <p className="mt-1 text-gray-600">
+                <div className="w-[75%]">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
                     Renova Terrace, Ashburn, VA, USA, 20147.
                   </p>
                 </div>
               </div>
 
             </div>
+            
+
+            
+            <div className="">
+              <div className="py-4">
+                <h3 className="text-5xl text-transparent font-bold">Contact</h3>
+                <div className="my-8 capitalize text-gray-900 text-3xl font-semibold">
+          K.S.A
+                </div>
+              </div>
+  
+
+ 
+
+              <div className="flex flex-wrap items-center gap-4">
+                <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><FaLocationDot /></div>
+
+                <div className="w-[75%]">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
+                  Al Sultan Building # 3308, 2nd Floor Office # 4A, Abdul Aziz Ibn Ibrahim Road, Jeddah, 23454.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+         
+
+            
+            <div className="">
+              <div className="py-4">
+                <h3 className="text-5xl text-transparent font-bold">Contact</h3>
+                <div className="my-8 capitalize text-gray-900 text-3xl font-semibold">
+          U.A.E
+                </div>
+              </div>
+  
+
+ 
+
+              <div className="flex flex-wrap items-center gap-4">
+                <div className="rounded-full h-8 w-8 border-TDarkBlue text-TDarkBlue flex flex-wrap items-center justify-center border-2"><FaLocationDot /></div>
+
+                <div className="w-[75%]">
+                  <p className="mt-1 text-gray-600 text-sm md:text-xl">
+                  Office # 407, 746 Building, Frij Ul Murar, Al Khaleej Road Dubai, UAE.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
 
           </div>
+ 
 
         </div>
       </div>
