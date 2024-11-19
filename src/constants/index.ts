@@ -327,7 +327,7 @@ export const teamCards: T.TeamCards[] = [
   },
   {
     image: '/team/csv/11.png',
-    heading: 'MUHAMMAD QASIM SHAMIM ALI KHAN',
+    heading: 'MUHAMMAD QASIM SHAMIM ',
     tagline: 'COO & HEAD OF SALES',
     description: 'As the driving force behind our operational excellence and revenue growth, our COO & Head of Sales at CyberSoft Vantage orchestrates a harmonious blend of strategy, execution, and customer-centric innovation, ensuring unparalleled success in the ever-evolving landscape of technology.',
     linkedin: 'https://www.linkedin.com/in/qasim-shamim/'
@@ -353,12 +353,21 @@ export const teamCards: T.TeamCards[] = [
     description: 'As the linchpin of project success at CyberSoft Vantage, senior product manager meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
     linkedin: 'https://www.linkedin.com/in/aleem-ahmed-47399268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
   },
+
   {
     image: '/team/csv/2.png',
     heading: 'Abdullah zubair',
     tagline: 'Senior Technical Project Manager',
     description: 'As the linchpin of project success at CyberSoft Vantage, our Senior Technical Project Manager meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
     linkedin: "https://www.linkedin.com/in/abdullah-zubair-/"
+  },
+
+  {
+    image: '/team/csv/16.png',
+    heading: 'Bilal Malik',
+    tagline: 'Solution Architect',
+    description: 'With over 10+ years of expertise in full-stack development, he excels in creating scalable, high-performance web applications using technologies like React.js, Node.js, .NET, and cloud solutions such as AWS and Azure. Adept at managing end-to-end development and mentoring teams, he is passionate about leveraging modern technologies to deliver user-focused, innovative solutions that meet complex business needs.',
+    linkedin: "https://www.linkedin.com/in/bilalmalic"
   },
   {
     image: '/team/csv/8.png',
@@ -401,13 +410,6 @@ export const teamCards: T.TeamCards[] = [
     tagline: 'Technical lead',
     description: 'As the linchpin of project success at CyberSoft Vantage, our Senior Technical lead meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
     linkedin: "https://www.linkedin.com/in/muhammad-sufyan-373819140"
-  },
-  {
-    image: '/team/csv/90.png',
-    heading: 'Arbab Zafar',
-    tagline: 'Software engineer ',
-    description: 'As a key contributor at CyberSoft Vantage, Arbab Zafar meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations. His expertise and dedication make him an invaluable asset to our team.',
-    linkedin: "https://www.linkedin.com/in/arbab-zafar-web-developer/"
   },
 ]
 

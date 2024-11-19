@@ -37,7 +37,7 @@ const Team = () => (
                 <span className="text-gray-500 uppercase text-xs">
                   {v.tagline}
                 </span>
-                <p className="mt-3 mb-4 font-light text-gray-500 capitalize ">
+                <p className="mt-3 mb-4 font-light text-gray-500  text-sm  w-full overflow-y-auto h-[60%]">
                   {v.description}
                 </p>
                 <FaLinkedinIn
